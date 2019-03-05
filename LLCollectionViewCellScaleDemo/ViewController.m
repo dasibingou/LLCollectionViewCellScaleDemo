@@ -34,7 +34,7 @@
 
 #pragma mark CardSwitchDelegate
 
-- (void)XLCardSwitchDidSelectedAt:(NSInteger)index {
+- (void)cardSwitchDidSelectedAt:(NSInteger)index {
     NSLog(@"选中了：%zd",index);
     
 }
